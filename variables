@@ -1,0 +1,54 @@
+# fichier qui contient les variables à paramétrer pour générer le rapport
+ #le client:
+ 
+ client = hôpital privé
+ 
+#le chemin pour les quatres fichiers CSV 
+path = /home/younes/Documents/data
+
+#Unités négligeables:
+ 
+#les unités dont le nombre de rums est moins de  :
+negl_nbr_rum = 15
+
+
+#les codes rares dont nombre d'apparition est moins de :
+dp_max = 1
+
+#les ccam rares dont nombre d'apparition est moins de :
+seuil_acte_rare = 1
+
+#le nombre de diagnostics principaux fréquents à afficher
+plot_dp = 10
+
+#le nombre de diagnostics reliés fréquents à afficher
+plot_dr = 10
+
+
+#le nombre de diagnostics associés fréquents à afficher
+plot_das = 10
+
+
+#le nombre d'actes fréquents à afficher
+plot_acte = 10
+
+#le nombre de couple dp-dr à afficher qui viennent ensembles dans une unité médicale
+n_dp_dr = 3
+
+
+
+#les unités médicales pour les quelles on souhaite réaliser les statistiques
+(all pour toutes les unités sinon les unités séparés par les virgules ex :  1000, XC130 )
+UM = all
+
+#la date début de la période à réaliser le statistiques (all par défaut sera la date minimum de debut des Rums)
+les formats sont :    AAAA   AAAA-MM et AAAA/MM   MM-AAAA et MM/AAAA    jj-MM-AAAA et jj/MM/AAAA   AAAA-MM-JJ et AAAA/MM/JJ
+
+
+date_debut  = all
+
+#la date de fin de période à réaliser le statistiques(all par défaut sera donc la date maximum de fin date des Rums)
+
+date_fin = all
+
+
